@@ -1,0 +1,55 @@
+body{
+  background-color: #F4DFBA;
+  font-family: 'Architects Daughter', cursive;
+}
+
+
+.container{
+  margin: auto;
+  background-color: whitesmoke;
+  height: 600px;
+  width: 450px;
+margin-top: 20px;
+border-radius: 3%;
+
+}
+
+.input-area{
+  padding: 20px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  
+}
+
+h1{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-top: 40px;
+  
+  color: #8946A6;
+}
+
+input{
+  flex-grow: 1;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px #fdcb6e;
+}
+
+.item-area{
+  display: flex;
+  /* flex-wrap: wrap; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #F4DFBA;
+  border-radius: 5px;
+}
+
+.item{
+  flex-grow: 1;
+}
