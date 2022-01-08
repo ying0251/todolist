@@ -32,7 +32,7 @@ h1{
   color: #8946A6;
 }
 
-input{
+.input-area input{
   flex-grow: 1;
   border: solid 3px transparent;
   border-bottom: dashed 3px #fdcb6e;
@@ -52,4 +52,7 @@ input{
 
 .item{
   flex-grow: 1;
+  background-color: #F4DFBA;
+  border: solid 3px transparent;
+  border-bottom: dashed 3px transparent;
 }
